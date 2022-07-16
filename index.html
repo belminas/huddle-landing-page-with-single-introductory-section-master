@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      display: grid;
+      place-items: start center;
+      margin-top: 10%;
+    }
+    .big-text{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: 27px;
+      color: white;
+    }
+    .small-text{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      font-size: 13px;
+      color: white;
+    }
+    .small-img{
+      width:150px;
+      margin-inline-start: 10%;
+      margin-bottom: 15%;
+      margin-top: 5%;
+    }
+    .big-img{
+      margin-inline-start: 10%;
+      margin-bottom: 15%;
+      max-width: 450px;
+    }
+    .card-body{
+      margin-inline-start: 15%;
+      margin-top: 25%;
+    }
+    .btn{
+      background-color: white;
+      color: hsl(257, 40%, 49%);
+      width: 150px;
+    }
+    .btn:hover{
+      background-color:hsl(300, 69%, 71%);
+      color: white;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="card" style="max-width: 900px; background-color:hsl(257, 40%, 49%); ;">
+    <img src="images/bg-desktop.svg">
+    <div class="card-img-overlay">
+      <div class="row">
+        <div class="col">
+          <img src="images/logo.svg" class="small-img">
+          <img src="images/illustration-mockups.svg" class="big-img">
+        </div>
+        <div class="col">
+          <div class="card-body">
+            <p class="card-title big-text">Build The Community Your Fans Will Love</p>
+            <p class="card-text small-text"> Huddle re-imagines the way we build 
+              communities. You have a voice, but so does your audience. 
+              Create connections with your users as you engage in genuine discussion. </p>
+              <button class="btn rounded-5">Register</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Belmin Trokic</a>.
+    </p>
+  </footer>
+</body>
+</html>
